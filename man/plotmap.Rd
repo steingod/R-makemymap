@@ -12,14 +12,15 @@
 }
 
 \usage{
-    plotmap(mymap,proj="latlon",type="line")
+    plotmap(mymap,projected=FALSE,polygon=FALSE)
 }
 
 \arguments{
     \item{mymap}{An object containing land contours. Preferably as read
     from e.g. GSHHS using \link{getmapdata}}
-    \item{proj}{Select the projection to use}
-    \item{type}{Select whether line or polygon plotting should be used}
+    \item{projected}{Boolean indicating geographical or map projected plot}
+    \item{polygon}{Boolean indicating whether line or filled continent should
+    be used}
 }
 
 \value{
@@ -34,6 +35,11 @@
 }
 
 \examples{
+    # Plot projected map with polygons
+    plotmap(tmp,type="line",projected=T,polygon=T,colour="black",fill="dark green")
+    # Same as above, but truncate map
+    plotmap(tmp,type="line",projected=T,polygon=T,colour="black",fill="dark green")
++coord_cartesian(xlim=c(-2500,2500),ylim=c(-4000,1000))
 }
 
 \keyword{

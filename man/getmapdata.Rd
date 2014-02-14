@@ -7,7 +7,7 @@
 }
 
 \description{
-    This function is a wrapper around \link{Rsghhs} in
+    This function is a wrapper around \link{Rgshhs} in
     \link{maptools}. It reads GSHHS data for a specified bounding box
     (geographical positions) and makes them available to create maps.
     Further projection of data is done using \link{proj4}.
@@ -34,9 +34,9 @@
 
 \arguments{
     \item{fn}{Filename to read data from.}
-    \item{xlim}{Longitude bounds, see \link{Rsghhs} for details}
-    \item{ylim}{Latitude bounds, see \link{Rsghhs} for details}
-    \item{...}{Additional arguments to \link{Rsghhs}}
+    \item{xlim}{Longitude bounds, see \link{Rgshhs} for details}
+    \item{ylim}{Latitude bounds, see \link{Rgshhs} for details}
+    \item{...}{Additional arguments to \link{Rgshhs}}
 }
 
 \value{
