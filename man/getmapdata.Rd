@@ -44,6 +44,12 @@
 }
 
 \value{
+    Part of the object returned by \link{Rgshhs}
+}
+
+\note{
+    Part of the code used here was published by Karl Ove Hufthammar in a
+    discussion on maptools posted at https://stat.ethz.ch/pipermail/r-sig-geo/2010-October/009630.html
 }
 
 \seealso{

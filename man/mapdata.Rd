@@ -22,6 +22,9 @@
     provided by the National Geophysical Data Center of NOAA Satellite and
     Information Service. The original dataset contains lakes, islands
     within lakes etc. This dataset contain only the coastlines.
+
+    Currently two map objects are available one for Norway (norway) and
+    one for the North Atlantic Ocean (northatlantic).
 }
 
 \usage{
