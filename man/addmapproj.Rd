@@ -35,8 +35,10 @@
 }
 
 \examples{
+    # Plot geographical data
     mymap <- getmapdata("gshhs_c.b",xlim=c(-20,40),ylim=c(40,80))
     plotmap(mymap)
+    # Add polar stereographic data and plot
     mymap <- addmapproj(mymap,"+proj=stere +lat_ts=60 +lat_0=90 +lon_0=0 +a=6371000 +b=6371000 +units=km")
     plotmap(mymap,proj="projected")
 }

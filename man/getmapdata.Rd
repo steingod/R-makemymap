@@ -29,13 +29,17 @@
 }
 
 \usage{
-    getmapdata(fn,xlim,ylim,..)
+    getmapdata(fn,xl=c(-80,80),yl=c(0,90),shift=T,level=1,no.clip=F,...)
 }
 
 \arguments{
     \item{fn}{Filename to read data from.}
-    \item{xlim}{Longitude bounds, see \link{Rgshhs} for details}
-    \item{ylim}{Latitude bounds, see \link{Rgshhs} for details}
+    \item{xl}{Longitude bounds}
+    \item{yl}{Latitude bounds}
+    \item{shift}{Transform longitudes around Greenwich if true}
+    \item{level}{Control which parts of database to read}
+    \item{no.clip}{Contro clipping of polygons, see \link{Rgshhs} for
+    details}
     \item{...}{Additional arguments to \link{Rgshhs}}
 }
 
