@@ -1,5 +1,5 @@
-plotmap <- function(map,proj="latlon",type="line") {
-    if (proj=="latlon") {
+plotmap <- function(map,proj="geographical",type="line") {
+    if (proj=="geographical") {
         if (type=="polygon") {
             ggplot(map,aes(x=lon,y=lat,group=group))+geom_polygon()+coord_fixed()
         } else {

@@ -1,4 +1,4 @@
-addpolarstereographic <- function(map) {
+addmapproj <- function(map,proj) {
     myproj <- "+proj=stere +lat_ts=60 +lat_0=90 +lon_0=0 +a=6371000 +b=6371000 +units=km"
     library(proj4)
     ucs <- project(list(lon=map$lon,lat=map$lat),myproj)
