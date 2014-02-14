@@ -1,0 +1,13 @@
+Package: makemymap
+Version: 0.2
+Date: 2014-02-14
+Title: Create maps
+Author: Oystein Godoy <o.godoy@met.no>
+Maintainer: Oystein Godoy <o.godoy@met.no>
+Depends: 
+Imports: maptools, ggplot2, proj4 
+Suggests: 
+Description: A collection of utility functions to simplify the creation of
+    maps at various resolutions and for various purposes.
+License: GPL version 2 or newer
+URL: http://www.r-project.org, http://www.met.no

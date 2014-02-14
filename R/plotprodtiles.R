@@ -1,0 +1,55 @@
+plotrecreg <- function(reg) {
+
+    mytiles <- list(
+            geom_rect(aes(
+                          xmin=prodtiles["xmin","wrus"],
+                          xmax=prodtiles["xmax","wrus"],
+                          ymin=prodtiles["ymin","wrus"],
+                          ymax=prodtiles["ymax","wrus"],
+                          alpha=0,colour=2)),
+            geom_rect(aes(
+                          xmin=prodtiles["xmin","sogr"],
+                          xmax=prodtiles["xmax","sogr"],
+                          ymin=prodtiles["ymin","sogr"],
+                          ymax=prodtiles["ymax","sogr"],
+                          alpha=0,colour=3)),
+            geom_rect(aes(
+                           xmin=prodtiles["xmin","newf"],
+                           xmax=prodtiles["xmax","newf"],
+                           ymin=prodtiles["ymin","newf"],
+                           ymax=prodtiles["ymax","newf"],
+                           alpha=0,colour=4)),
+            geom_rect(aes(
+                           xmin=prodtiles["xmin","npea"],
+                           xmax=prodtiles["xmax","npea"],
+                           ymin=prodtiles["ymin","npea"],
+                           ymax=prodtiles["ymax","npea"],
+                           alpha=0,colour=5)),
+            geom_rect(aes(
+                           xmin=prodtiles["xmin","ns"],
+                           xmax=prodtiles["xmax","ns"],
+                           ymin=prodtiles["ymin","ns"],
+                           ymax=prodtiles["ymax","ns"],
+                           alpha=0,colour=6)),
+            geom_rect(aes(
+                           xmin=prodtiles["xmin","nr"],
+                           xmax=prodtiles["xmax","nr"],
+                           ymin=prodtiles["ymin","nr"],
+                           ymax=prodtiles["ymax","nr"],
+                           alpha=0,colour=7)),
+            geom_rect(aes(
+                           xmin=prodtiles["xmin","at"],
+                           xmax=prodtiles["xmax","at"],
+                           ymin=prodtiles["ymin","at"],
+                           ymax=prodtiles["ymax","at"],
+                           alpha=0,colour=8)),
+            geom_rect(aes(
+                           xmin=prodtiles["xmin","gr"],
+                           xmax=prodtiles["xmax","gr"],
+                           ymin=prodtiles["ymin","gr"],
+                           ymax=prodtiles["ymax","gr"],
+                           alpha=0,colour=9))
+            )
+
+            return(mytiles)
+}
