@@ -1,5 +1,5 @@
 plotmap <- function(map,projected=FALSE,polygon=FALSE,...) {
-    library(ggplot2)
+    require(ggplot2)
     if (projected==FALSE) {
         if (polygon==TRUE) {
             ggplot(map,aes(x=lon,y=lat,group=group))+geom_polygon(...)+coord_fixed()

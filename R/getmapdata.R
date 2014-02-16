@@ -3,7 +3,7 @@
 # Using code published by Karl Ove Hufthammar...
 getmapdata <- function(fn,xl=c(-80,80),yl=c(0,90),shift=T,level=1,no.clip=F,...) {
 
-    #library(maptools)
+    require(maptools)
     map1 = try(Rgshhs(fn, xlim = xl, ylim = yl,shift = shift,
                     level = level, no.clip = no.clip)$SP)
    
