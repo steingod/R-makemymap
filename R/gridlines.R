@@ -1,6 +1,5 @@
 # Create grid lines in map projected datasets.
-#gridlines <- function(proj=NULL) {
-function(proj="+proj=stere +lat_ts=60 +lat_0=90 +lon_0=0 +a=6371000
+gridlines <- function(proj="+proj=stere +lat_ts=60 +lat_0=90 +lon_0=0 +a=6371000
          +b=6371000 +units=km",latr=c(40,90),lonr=c(-180,180),dl1=10,dl2=5) {
 
     mylat <- seq(latr[1],latr[2],dl1)
