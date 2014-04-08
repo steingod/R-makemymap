@@ -1,6 +1,9 @@
 \name{getmapdata }
 
 \alias{getmapdata }
+\alias{getmapdatanorway }
+\alias{getmapdatanorthatlantic }
+\alias{getmapdatanortherneurope }
 
 \title{
     Read GSHHS map data for specified region
