@@ -20,7 +20,9 @@
 \arguments{
     \item{map}{A map object as returned by \link{getmapdata}}
     \item{proj}{A PROJ.4 specification of the requested map projection.
-    See \link{proj} for details} 
+    See \link{proj} for details, prefined objects for ESPG:3408 and
+    EPSG:32661 exist and can be used directly. Default units are km for
+    both.} 
 }
 
 \value{

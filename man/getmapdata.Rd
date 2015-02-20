@@ -53,6 +53,11 @@
 \note{
     Part of the code used here was published by Karl Ove Hufthammar in a
     discussion on maptools posted at https://stat.ethz.ch/pipermail/r-sig-geo/2010-October/009630.html
+
+    Sometimes it is easier to use the Shapefiles provided for GSHHS as
+    these avoid some problems in the Eastern part of Russia. These files
+    are easily read using rgdal and readOGR followed by fortify and
+    modification of column names.
 }
 
 \seealso{
