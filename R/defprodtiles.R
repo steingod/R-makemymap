@@ -1,3 +1,5 @@
+# These definitions are linked to the default Polar Stereographic map
+# projection used within METNO.
 defprodtiles <- function() {
 
     prodtiles <- data.frame(
