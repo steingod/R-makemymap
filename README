@@ -1,0 +1,9 @@
+########################################################### 
+makemymap
+########################################################### 
+
+This R-package is developed to help creating maps. It is based upon
+utilisation of ggplot2 and GSHHS coastlines although other coastlines may
+be used. Map projection is done using PROJ.4. 
+
+Øystein Godøy, METNO/FOU, 2015-02-21
